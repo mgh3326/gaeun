@@ -1,6 +1,6 @@
-# [INTUITIVE BOOK SEARCH](https://greenday8426.github.io/)
+# [어가은 홈페이지](https://gaeun.azurewebsites.net/)
 
-멀티캠퍼스 6조 빅데이터 웹개발 프로젝트
+어가은 홈페이지
 
 ## Preview
 
