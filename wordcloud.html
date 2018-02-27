@@ -104,14 +104,17 @@
 						<a href="img/kakao/R.png"> Click
 							<img src="img/kakao/R.png" alt="color2" height="600" width="400" vspace="20">
 						</a>
+						<h2>R-그래프 도형 그리기</h2>
 						<h4>R-ggplot2 패키지를 이용한 그래프 그리기</h4>
 						<a href="img/그래프.png">
+							df_mpg<-mpg %>% 
+								filter(class %in% c("compact","subcompact","suv"))
+							  ggplot(data=df_mpg,aes(x=class,y=cty))+geom_boxplot()
+							  
 							<img src="img/그래프.png" alt="color2" height="400" width="400" vspace="20">
 						</a>
-						<a href="img/그래프2.png">
-							<img src="img/그래프2.png" alt="color2" height="400" width="400" vspace="20">
-						</a>
 
+						<h2>9장-데이터 분석 프로젝트</h2>
 
 
 
@@ -127,8 +130,13 @@
 						<a href="img/kakao/R2.png">
 							<img src="img/kakao/R2.png" alt="color2" height="600" width="400" vspace="20">
 						</a>
+						<br><br><br><br><br><br>
+						<a href="img/그래프2.png">
+							ggplot(data=economics,aes(x=date,y=psavert))+geom_line()
+							<img src="img/그래프2.png" alt="color2" height="400" width="400" vspace="20">
+							
 
-
+						</a>
 					</div>
 					<div class="col-lg-4">
 						<br>
